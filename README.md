@@ -1,4 +1,4 @@
 RFID-Copter
 ===========
 
-Reynolds RFID Quatcopter project
+Reynolds RFID Quadcopter project
