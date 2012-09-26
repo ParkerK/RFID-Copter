@@ -9,8 +9,11 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /write/*
+  script: copterlogs.app
 - url: .*
   script: main.app
+
 
 libraries:
 - name: webapp2
