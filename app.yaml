@@ -9,12 +9,15 @@ handlers:
   static_files: favicon.ico
   upload: favicon\.ico
 
+- url: /css
+  static_dir: css/
 - url: /write/*
   script: copterlogs.app
 - url: .*
   script: main.app
 
-
 libraries:
 - name: webapp2
   version: "2.5.1"
+- name: jinja2
+  version: latest
