@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+    <table class="table table-striped">
+        <tr>
+            <td> Run name </td>
+            <td> Date </td>
+            <td> Time </td>
+            <td> Location </td>
+            <td> Heading</td>
+            <td> Altitude</td>
+            <td> RFID Tag</td>
+            <td> Tag Strength</td>
+        </tr>
+        {% for log in console_logs %}
+          <tr>
+            <td> {{ log.run_name }} </td>
+            <td> {{ log.date }} </td>
+            <td> {{ log.time }} </td>
+            <td> {{ log.location }} </td>
+            <td> {{ log.heading }} </td>
+            <td> {{ log.altitude }} </td>
+            <td> {{ log.rfid_tag }} </td>
+            <td> {{ log.tag_strength }} </td>
+          </tr>
+        {% endfor %}
+    </table>
+
+
+  </body>
+</html>
