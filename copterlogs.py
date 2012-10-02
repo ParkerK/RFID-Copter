@@ -36,7 +36,7 @@ class Write(webapp2.RequestHandler):
         opener = urllib2.build_opener()
         json_obj = simplejson.load(self.request.body)
 
-         for point in json_obj:
+        for point in json_obj:
             copterlog = CopterLog(parent=copterlog_key())
             copterlog.run_name     = point["run_name"]
             # copterlog.date         = point["date"]
