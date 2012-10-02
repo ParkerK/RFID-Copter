@@ -31,10 +31,7 @@ class Write(webapp2.RequestHandler):
         copterlog.put() 
 
     def post(self):
-        import urllib2
-        import simplejson
-        opener = urllib2.build_opener()
-        json_obj = simplejson.load(self.request.body)
+        json_obj = simplejson.loads(self.request.body)
 
         for point in json_obj:
             copterlog = CopterLog(parent=copterlog_key())
