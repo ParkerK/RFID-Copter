@@ -13,6 +13,8 @@ handlers:
   static_dir: css/
 - url: /write/*
   script: copterlogs.app
+- url: /read/*
+  script: copterlogs.app
 - url: .*
   script: main.app
 
