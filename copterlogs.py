@@ -28,13 +28,28 @@ class Write(webapp2.RequestHandler):
         copterlog.altitude     = float(cgi.escape(self.request.get('altitude')))
         copterlog.rfid_tag     = cgi.escape(self.request.get('rfid_tag'))
         copterlog.tag_strength = float(cgi.escape(self.request.get('tag_strength')))
-        copterlog.put()
-        # user = users.get_current_user()
+        copterlog.put() 
 
-        # if user:
-        #     copterlog.put()
-        # else:
-        #     self.redirect(users.create_login_url(self.request.uri))
+    def post(self):
+        import urllib2
+        import simplejson
+        opener = urllib2.build_opener()
+        json_obj = simplejson.load(self.request.body)
+
+         for point in json_obj:
+            copterlog = CopterLog(parent=copterlog_key())
+            copterlog.run_name     = point["run_name"]
+            # copterlog.date         = point["date"]
+            # copterlog.time         = point["time"]
+            copterlog.location     = point["location"]
+            copterlog.heading      = int(point["heading"])
+            copterlog.altitude     = float(point["altitude"])
+            copterlog.rfid_tag     = point["rfid_tag"]
+            copterlog.tag_strength = float(point["tag_strength"])
+            copterlog.put()
+
+        # print f
+        # print f
 
 def gql_json_parser(query_obj):
     result = []
@@ -56,6 +71,6 @@ class Read(webapp2.RequestHandler):
 
 
 app = webapp2.WSGIApplication([
-                ('/write/   ', Write),
+                ('/write/', Write),
                 ('/read/', Read)
                 ], debug=True)
