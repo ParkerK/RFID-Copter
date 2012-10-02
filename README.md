@@ -16,11 +16,11 @@ Useage
 
 Datapoint Properties
 ====================
-run_name     = db.StringProperty() # name of run, if any
-date         = db.DateProperty(auto_now_add=True) # Date of log
-time         = db.TimeProperty(auto_now_add=True) # Time of log
-location     = db.GeoPtProperty() # Lat/Long of copter
-heading      = db.IntegerProperty() # 0-359, degrees from North
-altitude     = db.FloatProperty() # altitude, in ft, imperial system ftw
-rfid_tag     = db.StringProperty() # RFID UID
-tag_strength = db.FloatProperty() # Strength of the tag
+run_name     = db.StringProperty() # name of run, if any  
+date         = db.DateProperty(auto_now_add=True) # Date of log  
+time         = db.TimeProperty(auto_now_add=True) # Time of log  
+location     = db.GeoPtProperty() # Lat/Long of copter  
+heading      = db.IntegerProperty() # 0-359, degrees from North  
+altitude     = db.FloatProperty() # altitude, in ft, imperial system ftw  
+rfid_tag     = db.StringProperty() # RFID UID  
+tag_strength = db.FloatProperty() # Strength of the tag  
