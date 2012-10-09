@@ -1,0 +1,19 @@
+Ideas for Paper:
+
+Could use RFID to monitor concrete creep in bridges
+
+Prior RFID has been all inside
+We are taking it outside so it can be used in real world
+Dealing with read angles, best way to mount it
+Remove interference, or deal with it.
+Designing real hardware platform to real world use
+
+how high, how far can it be read
+read success as function of x y z from tag
+doppler shift from moving air from blades
+dropping rfid sensor tag in volcano, fly over it
+
+We are characterizing the performance of long range RFID tags outdoors.
+
+TravisDeyle.com look at papers
+
