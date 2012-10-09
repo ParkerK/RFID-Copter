@@ -1,6 +1,25 @@
 Ideas for Paper:
 
+Characterize how well RFID works outdoors on an AUV with the broader application of:
+	- using long range RFID for bridge analysis using remote sensing
+	- parking lot inspection
+	- the warehouse inventory problem outdoors instead of in a confined environment. 
+
+Look at:
+	- doppler shift
+	- read angles
+	- mounting
+	- read success as a function x, y, z
+	- interference
+	- What is possible
+
+RFID Doppler Shift
+
+Make blank graphs I hope to fill in
+
 Could use RFID to monitor concrete creep in bridges
+
+Theres a company called CyPhy Works that is working on something like this, but only visual and not RFID.
 
 Prior RFID has been all inside
 We are taking it outside so it can be used in real world
@@ -16,4 +35,3 @@ dropping rfid sensor tag in volcano, fly over it
 We are characterizing the performance of long range RFID tags outdoors.
 
 TravisDeyle.com look at papers
-
