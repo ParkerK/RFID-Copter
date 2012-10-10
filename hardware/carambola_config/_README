@@ -2,67 +2,84 @@
 CARAMBOLA CONFIG
 Notes for future package installation: Carambola architecture is MIPS, and can use RAMIPS/rt3883 IPK packages
 
-1. Connect via serial
+* Start by compiling custom image with the following settings. Tutorial for setting up cross compile toolkit is here: http://www.8devices.com/wiki_carambola/doku.php/carambola_where_to_start
+	Kernel modules / Filesystems / kmod-fs-vfat
+	Kernel modules / Native Language Support / kmod-nls-base
+	Kernel modules / Native Language Support / kmod-nls-cp437
+	Kernel modules / Native Language Support / kmod-nls-cp850
+	Kernel modules / Native Language Support / kmod-nls-iso8859-1
+	Kernel modules / Native Language Support / kmod-nls-iso8859-15
+	Kernel modules / USB support / kmod-usb-storage
+
+* use sysupgrade (http://www.8devices.com/wiki_carambola/doku.php/firmware_upgrade:sysupgrade) to reflash the Carambola
+
+* reboot
+ 
+* Connect via serial
 	sudo screen /dev/ttyUSBX 115200
 
-2. Run the following to backup our current config.
+* Run the following to backup our current config.
 	cd /etc/config
 	cp dhcp dhcp_original
 	cp firewall firewall_original
 	cp network network_original
 	cp wireless wireless_original
 
-3. Remove the old versions now as we will replace them.
+* Remove the old versions now as we will replace them.
 	rm dhcp
 	rm firewall
 	rm network
 	rm wireless
 
-3. Run the following. This auto generates a wireless script for us. It doesn't work, but I can use it to get the MAC address that needs to go in wireless (different from the one in the network file)
+* Run the following. This auto generates a wireless script for us. It doesn't work, but I can use it to get the MAC address that needs to go in wireless (different from the one in the network file)
 	wifi detect > /etc/config/wireless
 
-4. Look at the mac address that it auto detected, and write this down! It looks something like this:
+* Look at the mac address that it auto detected, and write this down! It looks something like this:
 	option macaddr	c4:93:00:11:18:48
 
-5. Now, put my updated networking configuration files in the correct locations. Either use USB or manually make new files with 'vi' and retype it all.
+* Now, put my updated networking configuration files in the correct locations. Either use USB or manually make new files with 'vi' and retype it all.
 	dhcp goes in /etc/config
 	firewall goes in /etc/config
 	network goes in /etc/config
 	wireless goes in /etc/config
 
-6. Open up the new /etc/config/wireless and replace the MAC address with the one you wrote down in step 4.
+* Open up the new /etc/config/wireless and replace the MAC address with the one you wrote down in step 4.
 
-7. The network you connect to is controlled in /etc/config/wireless. To change the ESSID edit that field in the wifi-iface declaration.
+* The network you connect to is controlled in /etc/config/wireless. To change the ESSID edit that field in the wifi-iface declaration.
 
-8. Restart the Carambola
+* Restart the Carambola
 	reboot
 
-9. See if you have an ipaddress / if everything is working. iwconfig should not longer be blank and ifconfig should have an ip address.
+* See if you have an ipaddress / if everything is working. iwconfig should not longer be blank and ifconfig should have an ip address.
 	iwconfig
 	ifconfig
 
-10. Now that internet is working we can use SCP and not have to retype files. First remove the old opkg.conf on the Carambola
+* Now that internet is working we can use SCP and not have to retype files. First remove the old opkg.conf on the Carambola
 	rm /etc/opkg.conf
 
-11. Now, copy over the new opkg.conf file. Make sure you are in the Carambola_Config directory on your computer, then run
+* Now, copy over the new opkg.conf file. Make sure you are in the Carambola_Config directory on your computer, then run
 	scp opkg.conf root@IP_ADDRESS_OF_CARAMBOLA:/etc/
 
-12. Update opkg
+* Update opkg
 	opkg update
 
-13. Install python-mini
+* Install python-mini
 	opkg install python-mini
 
-14. Make sure it works
+* Add threading.py to /root
+	scp threading.py root@IP_ADDRESS_OF_CARAMBOLA:/root/
+
+* Make sure it works
 	python
 
-15. Install pyserial (but it won't work yet)
+* Install pyserial (but it won't work yet)
 	opkg install http://downloads.openwrt.org/attitude_adjustment/12.09-beta/ramips/rt3883/packages/pyserial_2.4-1_ramips.ipk
 
-16. pyserial won't work yet though, it needs termios.so compiled for MIPS rt3883. I put this file in the Carambola_Config directory, so scp it into root on the Carambola
+* pyserial won't work yet though, it needs termios.so compiled for MIPS rt3883. I put this file in the Carambola_Config directory, so scp it into root on the Carambola
 	scp termios.so root@IP_ADDRESS_OF_CARAMBOLA:/etc/
 
-17. Make sure pyserial is working now. This should run without any errors.
+* Make sure pyserial is working now. This should run without any errors.
 	python
 	import serial
+
 
