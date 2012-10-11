@@ -3,7 +3,6 @@ CARAMBOLA CONFIG
 Notes for future package installation: Carambola architecture is MIPS, and can use RAMIPS/rt3883 IPK packages
 
 * Start by compiling custom image with the following settings. Tutorial for setting up cross compile toolkit is here: http://www.8devices.com/wiki_carambola/doku.php/carambola_where_to_start
-Note: Most of this probably isn't needed so we can start stripping packages out if we need more disk space, I was just trying to include everything I could here and it worked).
 	Kernel modules / Filesystems / kmod-fs-vfat
 	Kernel modules / Native Language Support / kmod-nls-base
 	Kernel modules / Native Language Support / kmod-nls-cp437
@@ -11,36 +10,6 @@ Note: Most of this probably isn't needed so we can start stripping packages out 
 	Kernel modules / Native Language Support / kmod-nls-iso8859-1
 	Kernel modules / Native Language Support / kmod-nls-iso8859-15
 	Kernel modules / USB support / kmod-usb-storage
-	Kernel modules / USB support / kmod-usb-acm 	
-	Kernel modules / USB support / kmod-usb-core
-	Kernel modules / USB support / kmod-usb-net	
-	Kernel modules / USB support / kmod-usb-net-sierrawireless	
-	Kernel modules / USB support / kmod-usb-ohci	
-	Kernel modules / USB support / kmod-usb-rt305x-dwc_otg	
-	Kernel modules / USB support / kmod-usb-serial-ark3116	
-	Kernel modules / USB support / kmod-usb-serial-belkin	
-	Kernel modules / USB support / kmod-usb-serial-ch341	
-	Kernel modules / USB support / kmod-usb-serial-cp210x	
-	Kernel modules / USB support / kmod-usb-serial-cypress-m8	
-	Kernel modules / USB support / kmod-usb-serial-ftdi	
-	Kernel modules / USB support / kmod-usb-serial-ipw	
-	Kernel modules / USB support / kmod-usb-serial-keyspan	
-	Kernel modules / USB support / kmod-usb-serial-mos7720	
-	Kernel modules / USB support / kmod-usb-serial-motorolla-phone	
-	Kernel modules / USB support / kmod-usb-serial-option
-	Kernel modules / USB support / kmod-usb-serial-oti6858
-	Kernel modules / USB support / kmod-usb-serial-pl2303
-	Kernel modules / USB support / kmod-usb-serial-qualcomm
-	Kernel modules / USB support / kmod-usb-serial-sierrawireless
-	Kernel modules / USB support / kmod-usb-serial-ti-usb
-	Kernel modules / USB support / kmod-usb-serial-visor
-	Kernel modules / USB support / kmod-usb-serial-wwan
-	Kernel modules / USB support / kmod-usb-storage
-	Kernel modules / USB support / kmod-usb-storage-extras
-	Kernel modules / USB support / kmod-usb2
-	Kernel modules / USB support / kmod-usbip
-	Kernel modules / USB support / kmod-usbclient
-	Kernel modules / USB support / kmod-usbserver
 
 * use sysupgrade (http://www.8devices.com/wiki_carambola/doku.php/firmware_upgrade:sysupgrade) to reflash the Carambola
 
