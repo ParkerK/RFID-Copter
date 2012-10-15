@@ -1,5 +1,13 @@
 Ideas for Paper:
 
+Indoors papers get 10,000 calibration readings and hundreds of readings with perfectly aligned tags in a perfect grid.  We are moving this outside, in an aerial application for parked cars.
+	- say you have 4 cars in a row, 3 of which have tags
+	- you get maybe 5 reads per second, 3 of which might have data.
+	- total flight time is a few seconds, and total number of readings for each tag is maybe 10 to 15.
+	- how can we distinguish 3 separate cars using only 10-15 readings?
+	- we must optimize localization for just a few readings.
+	- but then exploit things about the aerial application so that we make it unique to aerial RSSI so it is relevant and not dismissed as a simple generic 10 point optimization.
+
 Characterize how well RFID works outdoors on an AUV with the broader application of:
 	- using long range RFID for bridge analysis using remote sensing
 	- parking lot inspection
