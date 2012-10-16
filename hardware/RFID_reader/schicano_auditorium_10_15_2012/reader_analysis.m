@@ -41,7 +41,7 @@ zlabel('Average RSSI  ','FontSize',20)
 xlabel('X in feet  ','FontSize',20)
 ylabel('Y in feet  ','FontSize',20)
 
-%% PERCENT OF READER MISSES PLOT
+%% PERCENT OF SUCCESSFUL READS PLOT
 
 figure
 %subplot(2,1,2)
@@ -50,11 +50,6 @@ figure
 x = 30;
 y = 20
 reader_misses_matrix_right = zeros(x,y);
-for i = 1:x
-    for j = 1:y
-        reader_misses_matrix_right(i,j) = 100;
-    end
-end
 
 for i = 1:26
     % import data from files
@@ -68,31 +63,24 @@ for i = 1:26
     [rows,cols] = size(data);
     for j = 1:rows
         % 30 readings at each point, find how many were misses
-        reader_misses = sum(data(j,2:length(data)) == 0);
-        reader_misses_matrix_right(i,j) = reader_misses / 30 * 100;
+        reader_successes = 30 - sum(data(j,2:length(data)) == 0);
+        reader_success_matrix_right(i,j) = reader_successes / 30 * 100;
     end  
 end
 
 % make left matrix
 % data was actually taken on the left
-reader_misses_matrix_left = fliplr(reader_misses_matrix_right);
+reader_success_matrix_left = fliplr(reader_success_matrix_right);
 % concatenate matrices
-reader_misses_matrix = horzcat(reader_misses_matrix_left, reader_misses_matrix_right);
+reader_success_matrix = horzcat(reader_success_matrix_left, reader_success_matrix_right);
 % plot 
-filtered_data = imfilter(reader_misses_matrix, fspecial('average',[2 2]));
-% fix edges from the filter
-for i = 1:30
-    filtered_data(i,40) = 100;
-end
-for i = 1:40
-    filtered_data(30,i) = 100;
-end   
+filtered_data = imfilter(reader_success_matrix, fspecial('average',[2 2]));  
 % plot 
-reader_misses_plot = surf(filtered_data)
-title('Percent of Reader Misses Over 2D Space  ','FontSize',40)
-zlabel('Percent of Misses  ','FontSize',20)
+reader_success_plot = surf(filtered_data)
+title('Percent of Successful Reads Over 2D Space  ','FontSize',40)
+zlabel('Success Percent  ','FontSize',20)
 xlabel('X in feet  ','FontSize',20)
 ylabel('Y in feet  ','FontSize',20)
-colorbar
+
 
 
