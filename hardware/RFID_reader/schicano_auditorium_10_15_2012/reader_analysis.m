@@ -36,7 +36,7 @@ avg_rssi_matrix = horzcat(avg_rssi_matrix_left, avg_rssi_matrix_right);
 % plot 
 filtered_data = imfilter(avg_rssi_matrix, fspecial('average',[2 2]));
 avg_rssi_plot = surf(filtered_data)
-title({'Simulated Hexarotor: ';'Average RSSI Moving Over 2D Space  '}, 'FontSize', 20)
+title('Average RSSI Moving Over 2D Space  ', 'FontSize', 40)
 zlabel('Average RSSI  ','FontSize',20)
 xlabel('X in feet  ','FontSize',20)
 ylabel('Y in feet  ','FontSize',20)
@@ -89,7 +89,7 @@ for i = 1:40
 end   
 % plot 
 reader_misses_plot = surf(filtered_data)
-title({'Simulated Hexarotor: ';'Percent of Reader Misses Over 2D Space  '},'FontSize',20)
+title('Percent of Reader Misses Over 2D Space  ','FontSize',40)
 zlabel('Percent of Misses  ','FontSize',20)
 xlabel('X in feet  ','FontSize',20)
 ylabel('Y in feet  ','FontSize',20)
