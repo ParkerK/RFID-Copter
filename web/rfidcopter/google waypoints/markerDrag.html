@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map { height: 100% }
+    </style>
+    
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCz7UHmOh6T0KxORVUyH9sPFm40yjkPB6Y&sensor=false">
+      <input type="text" id="autocomplete">
+      <div id="map"></div>
+    </script>
+    
+<script type="text/javascript">
+      function initialize() {
+
+// Init the map
+var map = new GMap2(document.getElementById('map'));
+map.addControl(new GSmallMapControl());
+map.setCenter(new GLatLng(59.5, 14.0), 6);
+
+// Creating a marker
+var marker = new GMarker(new GLatLng(59.0, 13.80), {
+    draggable: true, 
+    title: 'Drag me'
+});
+
+// Adding a click event to the marker
+GEvent.addListener(marker, "click", function() {
+    marker.openInfoWindow('My InfoWindow');
+});
+
+// Close InfoWindow at dragstart
+GEvent.addListener(marker, "dragstart", function() {
+	map.closeInfoWindow();
+});
+					
+// Add the marker to the map	
+map.addOverlay(marker);
+				
+				}
+
+				 </script>
+  </head>
+  <body onload="initialize()">
+    <div id="map" style="width:100%; height:100%"></div>
+  </body>
+</html>
