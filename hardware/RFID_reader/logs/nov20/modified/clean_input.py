@@ -14,6 +14,5 @@ for line in open(original_filename, 'r'):
 	
 	if ( ((len(line_new) == 24) and (s[0] == 2) and (s[1] == 12)) or ((len(line_new) == 25) and (s[0] == 3) and (s[1] == 13)) ):
 		f.write(line_new)
-	else:
-		g.write(line_new)
+
 
