@@ -113,4 +113,10 @@ Note: Most of this probably isn't needed so we can start stripping packages out 
 	python
 	import serial
 
+* Enable ttyS0 using this tutorial: http://www.8devices.com/wiki_carambola/doku.php/mmio_fixing_ttys0
+	this is so we can connect the ArduPilot via serial.
+	we can't just install 'io' the normal way, you must install it this way:	
+	opkg install http://downloads.openwrt.org/attitude_adjustment/12.09-beta/ramips/rt3883/packages/io_1_ramips.ipk
+	now you can follow the instructions starting at "Read to test". Make sure you add the correct number of 0's as this can really mess stuff up if you don't.  Also edit the /etc/inittab file.
+	finally, make sure and etd the /etc/rc.local file so that this change happens everytime we start up
 
