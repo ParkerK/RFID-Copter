@@ -4,13 +4,14 @@ close all
 % radius of the earth in meters
 R = 6371000;
 
-filename = 'modified/slow_fly_by_clean.txt';
+%filename = 'modified/slow_fly_by_clean.txt';
+%filename = 'modified_by_hand/full_spiral_end_on_tag.txt';
 %filename = 'modified_by_hand/full_spiral_end_on_tag.txt';
 
 %filename = 'modified/first_run.txt';
 %filename = 'modified/fast_fly_by.txt';
 %filename = 'modified/medium_fly_by.txt';
-%filename = 'modified/slow_fly_by.txt';
+filename = 'modified/slow_fly_by_clean.txt';
 %filename = 'modified/first_run.txt';
 
 data = importdata(filename);
