@@ -4,7 +4,7 @@ close all
 % radius of the earth in meters
 R = 6371000;
 
-filename = '15m.txt';
+filename = '5m.txt';
 
 data = importdata(filename);
 
