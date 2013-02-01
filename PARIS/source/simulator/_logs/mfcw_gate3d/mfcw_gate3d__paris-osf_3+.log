@@ -1,0 +1,36 @@
+*******************************************************************************************************
+*******************************************************************************************************
+***
+*** Created by sim_mfcw_gate.m, version beta 3.0, 01-Feb-2013 16:31:38 on host "[unknown]"
+***
+*******************************************************************************************************
+*******************************************************************************************************
+
+Please note:
+   .) Delays will be rounded to sampling interval, resolution is 0.333333 ns (10 cm).
+
+The following output is switched off:
+   .) Warning output. You will not receive any warnings!
+   .) Headlines and progress output (ETA, ...).
+   .) Message output. You will not receive any detailed information.
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('get_distances', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/../../simulator/other/get_distances.m', 157)" style="font-weight:bold">get_distances</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/../../simulator/other/get_distances.m',157,0)">line 157</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('channel_newpos', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/../../simulator/channel/channel_newpos.m', 188)" style="font-weight:bold">channel_newpos</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/../../simulator/channel/channel_newpos.m',188,0)">line 188</a>)
+      [dist_trm{k}, az_trm{k}, el_trm{k}] = get_distances(pos_t, pos_rm);
+      %#ok<ASGLU,AGROW>
+
+In <a href="matlab:helpUtils.errorDocCallback('sim_mfcw_gate', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/../../simulator/sim_mfcw_gate.m', 828)" style="font-weight:bold">sim_mfcw_gate</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/../../simulator/sim_mfcw_gate.m',828,0)">line 828</a>)
+      settings.channel_tr = channel_newpos(settings.channel_tr, ...
+
+In <a href="matlab:helpUtils.errorDocCallback('mfcw_gate3d', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/mfcw_gate3d.m', 443)" style="font-weight:bold">mfcw_gate3d</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/mfcw_gate3d.m',443,0)">line 443</a>)
+sim_mfcw_gate(settings);
+} 
+mfcw_gate3d_NOTSVN
+[Warning: The RandStream.setDefaultStream static method will be removed in a future release.
+Use RandStream.setGlobalStream instead.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/randfun/@RandStream/RandStream.m',456,1)">RandStream.RandStream>RandStream.setDefaultStream at 456</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/globalinit.m',268,1)">globalinit at 268</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/mfcw_gate3d_NOTSVN.m',70,1)">mfcw_gate3d_NOTSVN at 70</a>] 
+TRANSMITTER SETUP:
+

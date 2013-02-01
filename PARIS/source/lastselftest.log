@@ -1,0 +1,990 @@
+Created on 01-Feb-2013 14:15:10
+ 
+*******************************************************************************************************
+* Versions:
+{Undefined function 'version_system' for input arguments of type 'char'.
+
+Error in <a href="matlab:helpUtils.errorDocCallback('selftest_main', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m', 115)" style="font-weight:bold">selftest_main</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',115,0)">line 115</a>)
+version_system('all');
+} 
+selftest_main
+[Warning: Name is nonexistent or not a directory:
+/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/main] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+[Warning: The RandStream.setDefaultStream static method will be removed in a future release.  Use
+RandStream.setGlobalStream instead.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/randfun/@RandStream/RandStream.m',456,1)">RandStream.RandStream>RandStream.setDefaultStream at 456</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/globalinit.m',268,1)">globalinit at 268</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',58,1)">selftest_main at 58</a>] 
+{Error using <a href="matlab:helpUtils.errorDocCallback('cd')" style="font-weight:bold">cd</a>
+Cannot CD to /Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/main/ (Name is nonexistent or
+not a directory).
+
+Error in <a href="matlab:helpUtils.errorDocCallback('selftest_main', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m', 60)" style="font-weight:bold">selftest_main</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',60,0)">line 60</a>)
+cd('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/main/');
+} 
+ls
+_data			lastselftest.log	reader			sim_mfcw_gate.m
+_logs			main			selftest		sim_mfcw_ranging.m
+_plots			other			selftest_main.m		sim_stdsettings_mfcw.m
+channel			ranging			selftest_main.m~	tag
+
+pwd
+
+ans =
+
+/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator
+
+cd main/
+ls
+mfcw_gate3d.m
+
+pwd
+
+ans =
+
+/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/main
+
+cd ..
+ls
+_data			lastselftest.log	reader			sim_mfcw_ranging.m
+_logs			main			selftest		sim_stdsettings_mfcw.m
+_plots			other			selftest_main.m		tag
+channel			ranging			sim_mfcw_gate.m
+
+selftest_main
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: illegal option -- f
+usage] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: Name is nonexistent or not a directory: readlink [-n] [file ...]] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/path.m',110,1)">path at 110</a>
+  In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/general/addpath.m',87,1)">addpath at 87</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',149,1)">globalinit at 149</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 
+[Warning: The RandStream.setDefaultStream static method will be removed in a future release.  Use
+RandStream.setGlobalStream instead.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/randfun/@RandStream/RandStream.m',456,1)">RandStream.RandStream>RandStream.setDefaultStream at 456</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/../globalinit.m',268,1)">globalinit at 268</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/simulator/source/simulator/selftest_main.m',55,1)">selftest_main at 55</a>] 

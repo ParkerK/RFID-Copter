@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/paris_osf/!svn/ver/5/simulator/selftest/results
+END
+results_channel_surface.mat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/paris_osf/!svn/ver/5/simulator/selftest/results/results_channel_surface.mat
+END
+results_tag_encoding.mat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_tag_encoding.mat
+END
+results_channel_large.mat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_channel_large.mat
+END
+results_reader_receiver.mat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_reader_receiver.mat
+END
+results_tag_clock.mat
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_tag_clock.mat
+END
+results_channel_directivity.mat
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_channel_directivity.mat
+END
+tagchar_power_synth.mat
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/paris_osf/!svn/ver/1/simulator/selftest/results/tagchar_power_synth.mat
+END
+results_mfcw.mat
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_mfcw.mat
+END
+results_reader_oscillator.mat
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_reader_oscillator.mat
+END
+results_reader_modulation.mat
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_reader_modulation.mat
+END
+results_reader_transmitter.mat
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_reader_transmitter.mat
+END
+results_reader_command.mat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_reader_command.mat
+END
+results_channel_small.mat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_channel_small.mat
+END
+results_main_reader_tag.mat
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_main_reader_tag.mat
+END
+results_channel_newpos.mat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/paris_osf/!svn/ver/5/simulator/selftest/results/results_channel_newpos.mat
+END
+tagchar_modulator_synth01.mat
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/paris_osf/!svn/ver/1/simulator/selftest/results/tagchar_modulator_synth01.mat
+END
+results_channel_noise.mat
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_channel_noise.mat
+END
+tagchar_modulator_synth02.mat
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/paris_osf/!svn/ver/1/simulator/selftest/results/tagchar_modulator_synth02.mat
+END
+results_reader_demodulation.mat
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_reader_demodulation.mat
+END
+results_tag_modulation.mat
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_tag_modulation.mat
+END
+results_tag_decoding.mat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_tag_decoding.mat
+END
+results_reader_analogpathest.mat
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/paris_osf/!svn/ver/1/simulator/selftest/results/results_reader_analogpathest.mat
+END
+results_channel_main.mat
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/paris_osf/!svn/ver/2/simulator/selftest/results/results_channel_main.mat
+END

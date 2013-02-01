@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/paris_osf/!svn/ver/6/simulator/channel
+END
+channel_noise.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/paris_osf/!svn/ver/5/simulator/channel/channel_noise.m
+END
+channel_directivity.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/paris_osf/!svn/ver/6/simulator/channel/channel_directivity.m
+END
+channel_main.m
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/paris_osf/!svn/ver/5/simulator/channel/channel_main.m
+END
+channel_small.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/paris_osf/!svn/ver/5/simulator/channel/channel_small.m
+END
+channel_surface.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/paris_osf/!svn/ver/5/simulator/channel/channel_surface.m
+END
+channel_large.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/paris_osf/!svn/ver/5/simulator/channel/channel_large.m
+END
+channel_newpos.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/paris_osf/!svn/ver/5/simulator/channel/channel_newpos.m
+END

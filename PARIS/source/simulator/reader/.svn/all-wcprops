@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/paris_osf/!svn/ver/5/simulator/reader
+END
+reader_demodulation.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/paris_osf/!svn/ver/5/simulator/reader/reader_demodulation.m
+END
+reader_main.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/paris_osf/!svn/ver/5/simulator/reader/reader_main.m
+END
+reader_receiver.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/paris_osf/!svn/ver/5/simulator/reader/reader_receiver.m
+END
+reader_analogpathest.m
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/paris_osf/!svn/ver/5/simulator/reader/reader_analogpathest.m
+END
+reader_modulation.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/paris_osf/!svn/ver/5/simulator/reader/reader_modulation.m
+END
+reader_oscillator.m
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/paris_osf/!svn/ver/5/simulator/reader/reader_oscillator.m
+END
+reader_transmitter.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/paris_osf/!svn/ver/5/simulator/reader/reader_transmitter.m
+END
+reader_command.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/paris_osf/!svn/ver/5/simulator/reader/reader_command.m
+END

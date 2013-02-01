@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 26
+/paris_osf/!svn/ver/5/core
+END
+intrand_isok.m
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/paris_osf/!svn/ver/5/core/intrand_isok.m
+END
+adstate.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/paris_osf/!svn/ver/5/core/adstate.m
+END
+first_level_crossing.m
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/paris_osf/!svn/ver/5/core/first_level_crossing.m
+END
+interp1c.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/paris_osf/!svn/ver/5/core/interp1c.m
+END
+interp2c.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/paris_osf/!svn/ver/5/core/interp2c.m
+END
+msg.m
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/paris_osf/!svn/ver/5/core/msg.m
+END
+err.m
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/paris_osf/!svn/ver/5/core/err.m
+END
+version_system.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/paris_osf/!svn/ver/5/core/version_system.m
+END
+critwarn.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/paris_osf/!svn/ver/5/core/critwarn.m
+END
+iscorefunction.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/paris_osf/!svn/ver/5/core/iscorefunction.m
+END
+get_stacklevel.m
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/paris_osf/!svn/ver/5/core/get_stacklevel.m
+END
+sparse_fir.m
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/paris_osf/!svn/ver/5/core/sparse_fir.m
+END
+mfile_status.m
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/paris_osf/!svn/ver/5/core/mfile_status.m
+END
+send_email.m
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/paris_osf/!svn/ver/5/core/send_email.m
+END
+approxequal.m
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/paris_osf/!svn/ver/5/core/approxequal.m
+END
+svn_isavailable.m
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/paris_osf/!svn/ver/5/core/svn_isavailable.m
+END
+hex2bit.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/paris_osf/!svn/ver/5/core/hex2bit.m
+END
+warn.m
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/paris_osf/!svn/ver/5/core/warn.m
+END
+contentcheck.m
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/paris_osf/!svn/ver/5/core/contentcheck.m
+END
+headline.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/paris_osf/!svn/ver/5/core/headline.m
+END
+svn_status.m
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/paris_osf/!svn/ver/5/core/svn_status.m
+END
+criterr.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/paris_osf/!svn/ver/5/core/criterr.m
+END
+check_result.m
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/paris_osf/!svn/ver/5/core/check_result.m
+END
+.SPR_COREPATH
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/paris_osf/!svn/ver/1/core/.SPR_COREPATH
+END
+loadmat.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/paris_osf/!svn/ver/5/core/loadmat.m
+END
+bit2opt.m
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/paris_osf/!svn/ver/5/core/bit2opt.m
+END
+renew_ticket.m
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/paris_osf/!svn/ver/5/core/renew_ticket.m
+END
+sanitize_setting.m
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/paris_osf/!svn/ver/5/core/sanitize_setting.m
+END
+var_trim.m
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/paris_osf/!svn/ver/5/core/var_trim.m
+END

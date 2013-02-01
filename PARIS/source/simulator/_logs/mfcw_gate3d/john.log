@@ -1,0 +1,19 @@
+*******************************************************************************************************
+*******************************************************************************************************
+***
+*** Created by sim_mfcw_gate.m, version beta 3.0, 01-Feb-2013 16:34:33 on host "[unknown]"
+***
+*******************************************************************************************************
+*******************************************************************************************************
+
+Please note:
+   .) Delays will be rounded to sampling interval, resolution is 0.333333 ns (10 cm).
+
+The following output is switched off:
+   .) Warning output. You will not receive any warnings!
+   .) Headlines and progress output (ETA, ...).
+   .) Message output. You will not receive any detailed information.
+
+
+
+john, time: 0 days 0 hrs 0 min 19 sec
