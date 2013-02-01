@@ -42,4 +42,44 @@ and subdirectories sorted by filename (89 files total):
    reader_oscillator.m            (rev.:           beta 3.0 | svn-rev.:    11 | svn-status: "        ")
    reader_receiver.m              (rev.:           beta 3.0 | svn-rev.:    11 | svn-status: "        ")
    reader_transmitter.m           (rev.:           beta 3.0 | svn-rev.:    11 | svn-status: "        ")
-   results_channel_d
+   results_channel_directivity.m  (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_channel_large.m        (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_channel_main.m         (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_channel_newpos.m       (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_channel_noise.m        (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_channel_small.m        (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_channel_surface.m      (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_main_reader_tag.m      (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_mfcw.m                 (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_reader_analogpathest.m (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_reader_command.m       (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_reader_demodulation.m  (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_reader_modulation.m    (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_reader_oscillator.m    (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+   results_reader_receiver.m      (rev.:           [script] | svn-rev.:    11 | svn-status: "        ")
+{Operation terminated by user during <a href="matlab:helpUtils.errorDocCallback('fileparts', '/Applications/MATLAB_R2012b.app/toolbox/matlab/iofun/fileparts.m', 94)" style="font-weight:bold">fileparts</a> (<a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/iofun/fileparts.m',94,0)">line 94</a>)
+
+
+In <a href="matlab:helpUtils.errorDocCallback('iscorefunction', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/core/iscorefunction.m', 94)" style="font-weight:bold">iscorefunction</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/core/iscorefunction.m',94,0)">line 94</a>)
+[paths, corefiles] = cellfun(@fileparts, corefiles, 'UniformOutput', false);
+
+In <a href="matlab:helpUtils.errorDocCallback('mfile_status', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/core/mfile_status.m', 98)" style="font-weight:bold">mfile_status</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/core/mfile_status.m',98,0)">line 98</a>)
+status.iscore = iscorefunction(filename);
+
+In <a href="matlab:helpUtils.errorDocCallback('version_system>selfcalled', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/core/version_system.m', 207)" style="font-weight:bold">version_system>selfcalled</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/core/version_system.m',207,0)">line 207</a>)
+         fcn = mfile_status(files{sortindices(i)}, fcn);
+
+In <a href="matlab:helpUtils.errorDocCallback('version_system', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/core/version_system.m', 138)" style="font-weight:bold">version_system</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/core/version_system.m',138,0)">line 138</a>)
+      selfcalled(globalsettings.logging.en_svn, thisfcn, 'all');
+
+In <a href="matlab:helpUtils.errorDocCallback('selftest_main', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/selftest_main.m', 97)" style="font-weight:bold">selftest_main</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/selftest_main.m',97,0)">line 97</a>)
+version_system('all');
+} 
+mfcw_gate3d_NOTSVN
+[Warning: The RandStream.setDefaultStream static method will be removed in a future release.
+Use RandStream.setGlobalStream instead.] 
+[> In <a href="matlab: opentoline('/Applications/MATLAB_R2012b.app/toolbox/matlab/randfun/@RandStream/RandStream.m',456,1)">RandStream.RandStream>RandStream.setDefaultStream at 456</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/globalinit.m',268,1)">globalinit at 268</a>
+  In <a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/mfcw_gate3d_NOTSVN.m',70,1)">mfcw_gate3d_NOTSVN at 70</a>] 
+TRANSMITTER SETUP:
+
