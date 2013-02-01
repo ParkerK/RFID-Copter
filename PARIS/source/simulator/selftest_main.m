@@ -49,9 +49,9 @@ clear all; close all; clc;
 fullfile(fileparts(mfilename('fullpath')), '..')
 path = '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/';
 %     Matlab does not resolve symbolic links; if we're running on Unix, let the system resolve them
-% if isunix
-%   [dummy, path] = system(sprintf('readlink -f "%s"', path));
-% end
+if isunix & ~ismac
+  [dummy, path] = system(sprintf('readlink -f "%s"', path));
+end
 %     add this path and call globalinit script
 
 addpath(path); clear('dummy', 'path');
