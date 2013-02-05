@@ -1,0 +1,60 @@
+Ideas from Travis
+
+grid 5cm
+rssi with gaussian noise
+they did that trying to get precise localization
+
+but we are going to a 40m by 40m grid
+
+make our granulatity like 0.5m
+now instead of planar model
+we can do a 3d model and do the exact same thing
+
+forget the inside stuff
+do it outside, completely done
+
+new to do 3d localization
+
+model itself is straightforward generlaztion of the 2d
+
+we can say it's new to do it in 3d, don't care about super high precision, just want to distinguish between multiple cars
+
+joho works, but you must contrain pose and you constrain nearby material properies. but we can't assume that. this works if you mount tags consistently on the wall. but...
+3 things in his paper that messed up rfid
+1: multipath
+2: 
+this leads to less than 0.5 m. they are only doing it in 2d. and they. as soon
+
+ for mine:
+ people in the past have used 2d tag detection models to localize tags. other people have suggested this doesn't work when parameters are unconstrained. BUT for this particular application, it is unconstrained, and we are in a moving platoform, we need to do 3D tag localization. we are ok with accuracy on the order of 2m. therefore, we use a tag model with a granularity of 50cm. and then we use the localization method bayesian joho's stuff.
+
+ do it on grass.
+
+ my first thing is to just say: RFID, GPS, and dead reckoning. i can put the quadcopter up and move it by hand to test dead reackoning. and see how that compares to just sitting with GPS somewhere. i need extra data.
+
+ what i want is the hexa and the tag to be in the most realistic circumstance possible to get a bunch of ground truth data. this is the tag detection and RSSi model. this could be nice to show against.
+
+ repeat last experiment with 50cm granularity on grass.
+
+ 6 degrees of freedom. position and oritenation of tag. do everything with respect to reader antenna.
+
+ one thing i can do. assume reader antenna is on my chest. and tag is on the wall and will stay still. obviously the hexa can be rotated relative to it, but i could say i will constrain the orientation of the reader so it's always pointing at the wall, and i will always keep it like that.
+
+capture lots of data. get a ground truth. the model MUST CLOSELY APPROXIMATE THE DATA I will capture.
+
+3D low granulatirity localization, off line. take lots of data. see if I'm able to localize a couple tags based. I'm going to have to add variance.
+
+Of thousands of reads. take 10 of them and see if it gives it anything close to where the tag should be.
+
+model:
+- tag detection prob
+- rssi mean
+- rssi standard dev
+make a model exactly like joho
+just have one for every height
+from -2M to +2M
+so I will have 8 slices total
+that will define my entire model
+each slice will be tag detction between 0 and 1, and a mean and standard deviation for the RSSi
+
+
