@@ -549,4 +549,6 @@ pchar = loadmat(globalsettings.core.sfir_char);
 Error in <a href="matlab:helpUtils.errorDocCallback('sim_mfcw_gate', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/sim_mfcw_gate.m', 643)" style="font-weight:bold">sim_mfcw_gate</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/sim_mfcw_gate.m',643,0)">line 643</a>)
    tag_carrier = channel_main(reader_carrier, settings.channel_rt);
 
-Error in <a href="matlab:he
+Error in <a href="matlab:helpUtils.errorDocCallback('mfcw_gate3d', '/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/mfcw_gate3d.m', 442)" style="font-weight:bold">mfcw_gate3d</a> (<a href="matlab: opentoline('/Users/johnpohollaren/Documents/Reynolds_Lab/RFID-Copter/PARIS/source/simulator/main/mfcw_gate3d.m',442,0)">line 442</a>)
+sim_mfcw_gate(settings);
+} 
