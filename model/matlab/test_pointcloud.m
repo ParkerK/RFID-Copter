@@ -43,7 +43,8 @@ for k = 0:(NUMZSTEPS-1)
 end
 
 % plot it
-scat = scatter3(model_3d(:,1), model_3d(:,2), model_3d(:,3), POINT_SIZE, model_3d(:,4));
+set(gcf,'OuterPosition',[1120 0 800 800])
+scatter3(model_3d(:,1), model_3d(:,2), model_3d(:,3), POINT_SIZE, model_3d(:,4));
 
 xlabel('X (meters)')
 ylabel('Y (meters)')
