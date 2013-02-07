@@ -36,22 +36,25 @@ xlabel('X (meters)')
 ylabel('Y (meters)')
 
 %% Particle Filter
-NUM_PARTICLES = 50;
-NOISE_SIGMA = 1;
+NUM_PARTICLES = 1000;
+NOISE_SIGMA_MEASUREMENT_PROB = 0.2;
+NOISE_SIGMA_RESAMPLE = 0.5;
 
 % model input data
-temp = 1.0;
-nr = 10;
-readings = zeros(nr,1);
-for k = 1:nr
-    readings(k,1) = temp;
+target = 0.5;
+num_readings = 10;
+readings = zeros(num_readings,1);
+for k = 1:num_readings
+    readings(k,1) = target;
 end
 
 % randomly initialize them
 % w [ x y error norm]
 w = zeros(NUM_PARTICLES,4);
-w(:,1) = round(XMIN + rand(NUM_PARTICLES,1) * 2 * XMAX);
-w(:,2) = round(0 + rand(NUM_PARTICLES,1) * YMAX);
+% randomize intially, not gaussian because this needs to be random over
+% everything
+w(:,1) = XMIN + rand(NUM_PARTICLES,1) * 2 * XMAX;
+w(:,2) = 0 + rand(NUM_PARTICLES,1) * YMAX;
 f = scatter( w(:,1), w(:,2), 'k', 'filled');
 
 for k = 1:size(readings,1);
@@ -60,18 +63,24 @@ for k = 1:size(readings,1);
     for i = 1:NUM_PARTICLES
         % find RSSI value that corresponds to w
         % match wx,wy with the RSSI value at model2dx, model2dy
-        wx = w(i,1);
-        wy = w(i,2);
+        % round it to then nearest one
+        wx = round(w(i,1));
+        wy = round(w(i,2));
+                
         model_index = intersect( find(model_2d(:,1)== wx), find(model_2d(:,2)==wy) );
-%         11
-%         model_2d(model_index,3)
-%         readings(k)
-%         abs( model_2d(model_index,3) - readings(k))
-%         normpdf(abs( model_2d(model_index,3) - readings(k) ))
-        w(i,3) = 4 * normpdf(abs( model_2d(model_index,3) - readings(k) ));
+        
+        
+        w(i,3) = normpdf( abs( model_2d(model_index,3) - readings(k) ), 0, NOISE_SIGMA_MEASUREMENT_PROB );
+%         
+%         model_value = model_2d(model_index,3)
+%         abs_val_diff = abs( model_2d(model_index,3) - readings(k) )       
+%         prob_measurement = w(i,3)
+        
+        
     end
-    
-    sum_of_errors = sum(w(:,3));
+        
+    sum_of_errors = sum(w(:,3))
+        
     for i = 1:NUM_PARTICLES
         w(i,4) = w(i,3) / sum_of_errors;
     end
@@ -89,10 +98,8 @@ for k = 1:size(readings,1);
             index = mod(index + 1, NUM_PARTICLES)+1;
         end
         
-%         w2(i,1) = w(index,1) + round( -NOISE + 2 * NOISE * rand);
-%         w2(i,2) = w(index,2) + round( -NOISE + 2 * NOISE * rand);
-        w2(i,1) = w(index,1) + round(normrnd(0,NOISE_SIGMA));
-        w2(i,2) = w(index,2) + round(normrnd(0,NOISE_SIGMA));
+        w2(i,1) = w(index,1) + normrnd(0,NOISE_SIGMA_RESAMPLE);
+        w2(i,2) = w(index,2) + normrnd(0,NOISE_SIGMA_RESAMPLE);
         w2(i,3) = w(index,3);
         w2(i,4) = w(index,4);
         
@@ -112,7 +119,7 @@ for k = 1:size(readings,1);
 
     w = w2;
  
-    pause(0.2)
+    pause(0.3)
     delete(f)
     f = scatter( w(:,1), w(:,2), 'k', 'filled' );
 
